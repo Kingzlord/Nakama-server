@@ -1,3 +1,7 @@
-FROM heroiclabs/nakama
+FROM heroiclabs/nakama:3.27.1
 
-EXPOSE 7350
+# Optional: copy any custom server code
+# COPY ./data/modules /nakama/data/modules
+
+# This runs Nakama and uses env vars
+CMD ["nakama", "serve"]
