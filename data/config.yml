@@ -1,0 +1,9 @@
+name: Nakama-Node-1
+data_dir: "./data/"
+
+session:
+    encryption_key: "Om5Jqwm0hxSI61qQNcbFRencYzSKfqoy"
+    refresh_encryption_key: "7nOhN3UFm0haT5KPNmxkYkeDWvOKJ55J"
+
+socket:
+    server_key: "2zvyzKoMwTyJwr1K4bSeNFjKvrgsZrIL"
