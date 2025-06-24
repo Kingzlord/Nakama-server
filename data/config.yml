@@ -1,9 +1,12 @@
 name: Nakama-Node-1
 data_dir: "./data/"
 
+database:
+  address: "postgresql://nakama_user:gqYalvgkSGSMPl9it9XEyemdTtLh3AZX@dpg-d1dbctqli9vc73ac2vcg-a:5432/nakama_c1u4?sslmode=disable"
+
 session:
-    encryption_key: "Om5Jqwm0hxSI61qQNcbFRencYzSKfqoy"
-    refresh_encryption_key: "7nOhN3UFm0haT5KPNmxkYkeDWvOKJ55J"
+  encryption_key: "Om5Jqwm0hxSI61qQNcbFRencYzSKfqoy"
+  refresh_encryption_key: "7nOhN3UFm0haT5KPNmxkYkeDWvOKJ55J"
 
 socket:
-    server_key: "2zvyzKoMwTyJwr1K4bSeNFjKvrgsZrIL"
+  server_key: "2zvyzKoMwTyJwr1K4bSeNFjKvrgsZrIL"
